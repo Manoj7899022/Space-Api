@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+.cards img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,415px);
+    
+}
+.cards{
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    height: 450px;
+    width: 400px;
+    margin-left: 10px;
+    text-align: center;
+}
